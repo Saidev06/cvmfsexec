@@ -246,7 +246,7 @@ rm -rf "$HERE/mnt"
 
 export STDINCOPYFD
 
-echo "$UNSHAREOPTS" >> outputfile.txt
+echo "$UNSHAREOPTS" >> ./outputfile.txt
 echo "$UNSHAREOPTS"
 
 # Note that within the here document, unprotected $ substitutions are
